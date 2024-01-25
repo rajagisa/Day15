@@ -31,4 +31,7 @@ pipeline {
         }
         failure {
             echo 'The pipeline has failed!'
-            // Add any actions you want to perform 
+            // Add any actions you want to perform on failed builds
+        }
+    }
+}
